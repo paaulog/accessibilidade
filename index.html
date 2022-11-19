@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>FacilitaBus</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="#home">
+            <li>
+              Home <img src="./assets/home.png" alt="Ícone de casa branca" />
+            </li>
+          </a>
+          <a href="#target">
+            <li>
+              Objetivo
+              <img src="./assets/target.png" alt="Ícone de alvo branco" />
+            </li>
+          </a>
+          <a href="#bus">
+            <li>
+              Ônibus
+              <img src="./assets/bus-icon.png" alt="Ícone de ônibus branco" />
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="name">
+          <h1>FacilitaBus</h1>
+          <img src="./assets/bus-big-icon.png" alt="Ícone de um ônibus azul" />
+          <p>Pensado em você, PCD que utiliza do transporte público!</p>
+        </div>
+        <img
+          src="./assets/bus.gif"
+          alt="Desenho de um homem sentado em um banco no ponto de ônibus."
+        />
+      </section>
+      <section class="target" id="target">
+        <h2>Objetivo</h2>
+        <div class="content">
+          <p>
+            Você já ficou esperando no ponto um ônibus, e quando ele chegou o
+            mesmo não tinha nenhuma acessibilidade? Nosso objetivo é reunir, num
+            site, os ônibus que possuem acessibilidade garantida, para você que
+            é PCD e tem essa dificuldade todos os dias.
+          </p>
+          <img
+            src="./assets/bus2.png"
+            alt="Desenho de um homem sentado em um banco no ponto de ônibus."
+          />
+        </div>
+      </section>
+      
+      <section class="bus" id="bus">
+        <h2>Lista de ônibus com acessibilidade</h2>
+        <input type="search" name="pesquisa" id="pesquisa"><button id="button">Encontrar linha</button>
+        <section class="maps-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117030.1697275187!2d-46.61510579689034!3d-23.56151792457055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1662420242564!5m2!1spt-BR!2sbr"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+        <div id="list"></div>
+      </section>
+    </main>
+
+    <footer>Paulo Gomes</footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+  
+</html>

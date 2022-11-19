@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #487cfc;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+header nav li:hover {
+  color: rgb(214, 212, 212);
+}
+
+header nav ul img {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+section {
+  padding: 5% 20%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #487cfc;
+  margin-bottom: 1rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.name p {
+  background-color: #487cfc;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.target {
+  margin-top: 5rem;
+  background-color: #eceff7;
+}
+
+.target h2 {
+  font-size: 2rem;
+  color: #487cfc;
+}
+
+.target p {
+  color: #2549a5;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content p {
+  font-size: 1.4rem;
+  line-height: 200%;
+  max-width: 50%;
+}
+
+.content img {
+  max-width: 50%;
+}
+
+.bus{
+  color: #2549a5;
+}
+
+#pesquisa{
+
+}
+
+#list div{
+ display: inline-block;
+ padding: 50px;
+}
+
+footer{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #487cfc;
+  color: white; 
+}
+
+#botao{
+  
+}
